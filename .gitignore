@@ -1,0 +1,14 @@
+# Object files
+*.o
+obj/
+
+# Executables
+bin/
+*.exe
+*.out
+
+# Editor files
+*.swp
+*~
+.vscode/
+.idea/
