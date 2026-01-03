@@ -7,4 +7,5 @@ char *read_line(void) {
 
 void print_prompt(void) {
     // Print shell prompt
+    
 }
