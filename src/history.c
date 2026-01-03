@@ -21,7 +21,7 @@ void add_to_history(char *cmd) {
     if (history_count >= MAX_HISTORY) {
         free(history[0]);
         
-        // Shift all entries
+      
         int i;
         for (i = 0; i < MAX_HISTORY - 1; i++) {
             history[i] = history[i + 1];
