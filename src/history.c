@@ -20,8 +20,6 @@ void add_to_history(char *cmd) {
     // If history is full, remove oldest entry
     if (history_count >= MAX_HISTORY) {
         free(history[0]);
-        
-      
         int i;
         for (i = 0; i < MAX_HISTORY - 1; i++) {
             history[i] = history[i + 1];
