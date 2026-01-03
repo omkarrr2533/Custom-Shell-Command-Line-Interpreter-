@@ -17,7 +17,6 @@ void add_to_history(char *cmd) {
     if (cmd == NULL || strlen(cmd) == 0) {
         return;
     }
-    // If history is full, remove oldest entry
     if (history_count >= MAX_HISTORY) {
         free(history[0]);
         int i;
