@@ -46,7 +46,7 @@ void show_history(void) {
         printf("  %3d  %s\n", i + 1, history[i]);
     }
     
-    printf("╚════════════════════════════════════════════════════════╝\n\n");
+    printf("╚═════════════════════════════ ════╝\n\n");
 }
 
 void clear_history(void) {
