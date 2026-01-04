@@ -7,7 +7,6 @@ void shell_init(void) {
 void shell_loop(void) {
     // Main shell loop
 }
-
 void shell_cleanup(void) {
     // Cleanup resources
 }
