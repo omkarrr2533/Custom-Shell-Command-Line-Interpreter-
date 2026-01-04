@@ -6,7 +6,7 @@
 #include <string.h>
 #include <unistd.h>
 
-// Global shell state
+// Global shell state 
 extern int shell_running;
 
 // Shell core functions
